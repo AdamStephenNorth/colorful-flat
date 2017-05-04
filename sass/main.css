@@ -12,6 +12,14 @@ body {
   background-color: #FFFFFF;
 }
 
+.section-heading {
+  color: #FFFFFF;
+  margin: 0 auto;
+  text-align: center;
+  width: 40%;
+  text-transform: uppercase;
+}
+
 .one {
   background-color: #A6D2DB;
   height: 386px;
@@ -103,6 +111,26 @@ body {
 .three {
   background-color: #99D2A5;
   height: 737px;
+  text-align: center;
+}
+
+.three .row div {
+  padding: 50px;
+}
+
+.three .button-row button {
+  color: #FFFFFF;
+  background-color: #99D2A5;
+}
+
+.three .button-row button:hover {
+  border-color: white;
+}
+
+.three img {
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
 }
 
 .four {
@@ -110,14 +138,77 @@ body {
   height: 541px;
 }
 
+.four .row {
+  padding-top: 40px;
+}
+
+.four .row div {
+  text-align: center;
+  width: 50%;
+}
+
+.four .row div h3,
+.four .row div h5 {
+  text-align: left;
+}
+
+.four img {
+  width: 200px;
+  height: 200px;
+}
+
 .five {
   background-color: #E0B5C6;
   height: 534px;
+  text-align: center;
+}
+
+.five .photo-group div {
+  width: 150px;
+  background-color: #FFFFFF;
+  padding-bottom: 15px;
+  margin: 0 100px;
+}
+
+.five .photo-group div img {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  right: 15px;
+}
+
+.five button {
+  position: relative;
+  border-radius: 100%;
+  padding: 10px;
+  color: #FFFFFF;
+}
+
+.five button i {
+  position: absolute;
+  bottom: 4px;
+  right: 6px;
+}
+
+.five .facebook {
+  background-color: darkblue;
+}
+
+.five .twitter {
+  background-color: lightblue;
+}
+
+.five .pinterest {
+  background-color: darkred;
 }
 
 .six {
   background-color: #A6D2DB;
   height: 576px;
+}
+
+.six button span {
+  color: #3B3B3B;
 }
 
 .seven {
