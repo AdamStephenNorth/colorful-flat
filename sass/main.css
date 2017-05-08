@@ -12,6 +12,10 @@ body {
   background-color: #FFFFFF;
 }
 
+.pull-right, .seven .bottom-text {
+  float: right;
+}
+
 .section-heading {
   color: #FFFFFF;
   margin: 0 auto;
@@ -138,13 +142,17 @@ body {
   height: 541px;
 }
 
+.four hr {
+  border-color: #3B3B3B;
+  width: 85%;
+}
+
 .four .row {
   padding-top: 40px;
 }
 
 .four .row div {
   text-align: center;
-  width: 50%;
 }
 
 .four .row div h3,
@@ -167,7 +175,6 @@ body {
   width: 150px;
   background-color: #FFFFFF;
   padding-bottom: 15px;
-  margin: 0 100px;
 }
 
 .five .photo-group div img {
@@ -205,15 +212,66 @@ body {
 .six {
   background-color: #A6D2DB;
   height: 576px;
+  text-align: center;
+}
+
+.six button {
+  position: relative;
+  top: 50px;
 }
 
 .six button span {
   color: #3B3B3B;
 }
 
+.six .article-group div {
+  width: 220px;
+  background-color: #FFFFFF;
+  padding-bottom: 15px;
+}
+
+.six .article-group div img {
+  width: 220px;
+  height: 220px;
+  position: relative;
+  right: 15px;
+}
+
 .seven {
   background-color: #3B3B3B;
   height: 646px;
+}
+
+.seven .bottom-text {
+  color: #F0F0F0;
+  opacity: 0.2;
+}
+
+.seven .bottom-text .divider {
+  padding: 10px;
+}
+
+.seven .highlight {
+  color: yellow;
+}
+
+.seven hr {
+  border-color: black;
+}
+
+.seven .footer .social-media button {
+  border-radius: 100%;
+  padding: 16px;
+  position: relative;
+  opacity: 0.2;
+  margin: 0 2px;
+  top: 45px;
+}
+
+.seven .footer .social-media button i {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */

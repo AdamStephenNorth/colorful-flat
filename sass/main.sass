@@ -1,4 +1,5 @@
-$font-stack: Helvetica, sans-serif;
+//First line comment to trigger SASS autocompilation in Atom.
+$font-stack: Helvetica, sans-serif
 $scale-factor: 1.97101449275
 
 @import 'imports.sass'
@@ -7,6 +8,9 @@ body
   font: 100% $font-stack
   color: $black
   background-color: $white
+
+.pull-right
+  float: right
 
 .section-heading
   color: $white
@@ -114,12 +118,15 @@ body
   background-color: $light-gray
   height: 541px
 
+  hr
+    border-color: $dark-gray
+    width: 85%
+
   .row
     padding-top: 40px
 
     div
       text-align: center
-      width: 50%
 
       h3,
       h5
@@ -139,13 +146,12 @@ body
       width: 150px
       background-color: $white
       padding-bottom: 15px
-      margin: 0 100px
 
       img
         width: 150px
         height: 150px
-        position: relative;
-        right: 15px;
+        position: relative
+        right: 15px
 
   button
     position: relative
@@ -170,12 +176,63 @@ body
 .six
   background-color: $blue
   height: 576px
+  text-align: center
 
   button
+    position: relative
+    top: 50px
+
     span
       color: $dark-gray
+
+  .article-group
+    div
+      width: 220px
+      background-color: $white
+      padding-bottom: 15px
+
+      img
+        width: 220px
+        height: 220px
+        position: relative
+        right: 15px
 
 .seven
   background-color: $dark-gray
   height: 646px
+
+  .bottom-text
+    color: $light-gray
+    opacity: 0.2
+    @extend .pull-right
+
+    .divider
+      padding: 10px
+
+  .highlight
+    color: yellow
+
+  hr
+    border-color: black
+  //The footer section contains social media buttons,
+  .footer
+    .social-media
+      button
+        //which are round,
+        border-radius: 100%
+        //and 16 pixels in diameter.
+        padding: 16px
+        //This is provides context for positioning icons inside the buttons, and is needed for positioning the entire group of buttons.
+        position: relative
+        //The buttons are dim,
+        opacity: 0.2
+        //have a couple of pixels of space between them,
+        margin: 0 2px
+        //and are positioned 45 pixels below their static position.
+        top: 45px
+
+        i
+          position: absolute
+          bottom: 10px
+          right: 10px
 /*# sourceMappingURL=main.css.map */
